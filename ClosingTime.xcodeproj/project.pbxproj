@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C54C1491A23413B00F352A3 /* STURLEncoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9EC6D91A233A83008C3452 /* STURLEncoding.framework */; };
+		2C54C14B1A23448400F352A3 /* ClosingTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C54C14A1A23448400F352A3 /* ClosingTime.storyboard */; };
+		2C61180D1A2329F000D9341E /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61180C1A2329F000D9341E /* ApplicationDelegate.swift */; };
+		2C6118141A2329F000D9341E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6118131A2329F000D9341E /* Images.xcassets */; };
+		2C6118171A2329F000D9341E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C6118151A2329F000D9341E /* LaunchScreen.xib */; };
+		2C61182D1A232D7400D9341E /* ApplicationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61182C1A232D7400D9341E /* ApplicationStateManager.swift */; };
+		2C6118301A232DB700D9341E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61182E1A232DB700D9341E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C54C1461A23412C00F352A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9EC68A1A233539008C3452;
+			remoteInfo = "STURLEncodingFramework-iOS";
+		};
+		2C9EC67E1A2333EE008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C6EE59D163E71D30064800F;
+			remoteInfo = "STURLEncoding-iOS";
+		};
+		2C9EC6801A2333EE008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C6EE5AE163E71D30064800F;
+			remoteInfo = "STURLEncodingTests-iOS";
+		};
+		2C9EC6821A2333EE008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C57661416B656A6002C6503;
+			remoteInfo = "STURLEncoding-mac";
+		};
+		2C9EC6841A2333EE008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C5765F416B654D3002C6503;
+			remoteInfo = "STURLEncodingTests-mac";
+		};
+		2C9EC6D81A233A83008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C9EC68B1A233539008C3452;
+			remoteInfo = "STURLEncodingFramework-iOS";
+		};
+		2C9EC6DA1A233A83008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C9EC6951A233539008C3452;
+			remoteInfo = "STURLEncodingFrameworkTests-iOS";
+		};
+		2C9EC6DC1A233A83008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C9EC6B21A23376E008C3452;
+			remoteInfo = "STURLEncodingFramework-mac";
+		};
+		2C9EC6DE1A233A83008C3452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C9EC6BC1A23376E008C3452;
+			remoteInfo = "STURLEncodingFrameworkTests-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C54C14A1A23448400F352A3 /* ClosingTime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ClosingTime.storyboard; sourceTree = "<group>"; };
+		2C6118071A2329F000D9341E /* ClosingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61180B1A2329F000D9341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C61180C1A2329F000D9341E /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
+		2C6118131A2329F000D9341E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C6118161A2329F000D9341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C61182C1A232D7400D9341E /* ApplicationStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStateManager.swift; sourceTree = "<group>"; };
+		2C61182E1A232DB700D9341E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = STURLEncoding.xcodeproj; path = STURLEncoding/STURLEncoding.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C6118041A2329F000D9341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C54C1491A23413B00F352A3 /* STURLEncoding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C6117FE1A2329F000D9341E = {
+			isa = PBXGroup;
+			children = (
+				2C6118091A2329F000D9341E /* ClosingTime */,
+				2C6118321A2333C400D9341E /* lib */,
+				2C6118081A2329F000D9341E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C6118081A2329F000D9341E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C6118071A2329F000D9341E /* ClosingTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C6118091A2329F000D9341E /* ClosingTime */ = {
+			isa = PBXGroup;
+			children = (
+				2C61180B1A2329F000D9341E /* Info.plist */,
+				2C54C14A1A23448400F352A3 /* ClosingTime.storyboard */,
+				2C61180C1A2329F000D9341E /* ApplicationDelegate.swift */,
+				2C61182C1A232D7400D9341E /* ApplicationStateManager.swift */,
+				2C61182E1A232DB700D9341E /* ViewController.swift */,
+				2C6118131A2329F000D9341E /* Images.xcassets */,
+				2C6118151A2329F000D9341E /* LaunchScreen.xib */,
+			);
+			path = ClosingTime;
+			sourceTree = "<group>";
+		};
+		2C6118321A2333C400D9341E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2C9EC6781A2333EE008C3452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9EC67F1A2333EE008C3452 /* libSTURLEncoding.a */,
+				2C9EC6811A2333EE008C3452 /* STURLEncodingTests.xctest */,
+				2C9EC6831A2333EE008C3452 /* libSTURLEncoding.a */,
+				2C9EC6851A2333EE008C3452 /* STURLEncodingTests.xctest */,
+				2C9EC6D91A233A83008C3452 /* STURLEncoding.framework */,
+				2C9EC6DB1A233A83008C3452 /* STURLEncodingFrameworkTests-iOS.xctest */,
+				2C9EC6DD1A233A83008C3452 /* STURLEncoding.framework */,
+				2C9EC6DF1A233A83008C3452 /* STURLEncodingFrameworkTests-mac.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C6118061A2329F000D9341E /* ClosingTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6118261A2329F000D9341E /* Build configuration list for PBXNativeTarget "ClosingTime" */;
+			buildPhases = (
+				2C6118031A2329F000D9341E /* Sources */,
+				2C6118041A2329F000D9341E /* Frameworks */,
+				2C6118051A2329F000D9341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C54C1471A23412C00F352A3 /* PBXTargetDependency */,
+			);
+			name = ClosingTime;
+			productName = ClosingTime;
+			productReference = 2C6118071A2329F000D9341E /* ClosingTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6117FF1A2329F000D9341E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Scott Talbot";
+				TargetAttributes = {
+					2C6118061A2329F000D9341E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 2C6118021A2329F000D9341E /* Build configuration list for PBXProject "ClosingTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C6117FE1A2329F000D9341E;
+			productRefGroup = 2C6118081A2329F000D9341E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C9EC6781A2333EE008C3452 /* Products */;
+					ProjectRef = 2C9EC6771A2333EE008C3452 /* STURLEncoding.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2C6118061A2329F000D9341E /* ClosingTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2C9EC67F1A2333EE008C3452 /* libSTURLEncoding.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSTURLEncoding.a;
+			remoteRef = 2C9EC67E1A2333EE008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6811A2333EE008C3452 /* STURLEncodingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = STURLEncodingTests.xctest;
+			remoteRef = 2C9EC6801A2333EE008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6831A2333EE008C3452 /* libSTURLEncoding.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSTURLEncoding.a;
+			remoteRef = 2C9EC6821A2333EE008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6851A2333EE008C3452 /* STURLEncodingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = STURLEncodingTests.xctest;
+			remoteRef = 2C9EC6841A2333EE008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6D91A233A83008C3452 /* STURLEncoding.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = STURLEncoding.framework;
+			remoteRef = 2C9EC6D81A233A83008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6DB1A233A83008C3452 /* STURLEncodingFrameworkTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "STURLEncodingFrameworkTests-iOS.xctest";
+			remoteRef = 2C9EC6DA1A233A83008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6DD1A233A83008C3452 /* STURLEncoding.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = STURLEncoding.framework;
+			remoteRef = 2C9EC6DC1A233A83008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C9EC6DF1A233A83008C3452 /* STURLEncodingFrameworkTests-mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "STURLEncodingFrameworkTests-mac.xctest";
+			remoteRef = 2C9EC6DE1A233A83008C3452 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C6118051A2329F000D9341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6118171A2329F000D9341E /* LaunchScreen.xib in Resources */,
+				2C6118141A2329F000D9341E /* Images.xcassets in Resources */,
+				2C54C14B1A23448400F352A3 /* ClosingTime.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C6118031A2329F000D9341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6118301A232DB700D9341E /* ViewController.swift in Sources */,
+				2C61180D1A2329F000D9341E /* ApplicationDelegate.swift in Sources */,
+				2C61182D1A232D7400D9341E /* ApplicationStateManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C54C1471A23412C00F352A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "STURLEncodingFramework-iOS";
+			targetProxy = 2C54C1461A23412C00F352A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C6118151A2329F000D9341E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6118161A2329F000D9341E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C6118241A2329F000D9341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6118251A2329F000D9341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6118271A2329F000D9341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClosingTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C6118281A2329F000D9341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClosingTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C6118021A2329F000D9341E /* Build configuration list for PBXProject "ClosingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6118241A2329F000D9341E /* Debug */,
+				2C6118251A2329F000D9341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6118261A2329F000D9341E /* Build configuration list for PBXNativeTarget "ClosingTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6118271A2329F000D9341E /* Debug */,
+				2C6118281A2329F000D9341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C6117FF1A2329F000D9341E /* Project object */;
+}
