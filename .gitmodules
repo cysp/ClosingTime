@@ -1,0 +1,3 @@
+[submodule "lib/STURLEncoding"]
+	path = lib/STURLEncoding
+	url = git@github.com:cysp/STURLEncoding.git
